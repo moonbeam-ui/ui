@@ -1,0 +1,30 @@
+{
+  "name": "@moonbeam/ui",
+  "version": "1.0.0",
+  "description": "Moonbeam UI is an open source UI kit.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "moonbeam",
+    "design",
+    "ui",
+    "user",
+    "interface",
+    "user",
+    "experience"
+  ],
+  "author": "Meryll Essig",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "rfs": "^8.0.1"
+  }
+}

@@ -1,0 +1,52 @@
+.btn {
+    line-height: 1.499;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: rgba(0,0,0,0.65);
+    background-color: #fff;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+
+    &:focus, &:active {
+        outline: 0;
+    }
+}
+
+.btn-primary {
+    background-color: $color-6;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: $color-1;
+    color: #121212;
+}
+
+.btn-info {
+    background-color: $color-info;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: $color-success;
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: $color-warning;
+    color: #fff;
+}
+
+.btn-error {
+    background-color: $color-error;
+    color: #fff;
+}
